@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header class="text-center">
+    <header class="text-center" >
         <img src="img/logo.png" class="logo" height="80">
         <h1>Farmacia Vida Saudavel</h1>
         <nav class="">
