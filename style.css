@@ -34,7 +34,6 @@ h2 {
     transform: translateY(-5px);
 }
 
-/* Imagem do produto */
 .capa-produto {
     max-height: 180px;
     object-fit: contain;
@@ -45,5 +44,10 @@ h2 {
 /* Nome do produto */
 .col-3 h3 {
     font-size: 1.1rem;
-    margin-bottom: 10p
+    margin-bottom: 10px;
+}
+
+.infocabecalho{
+    text-decoration: none;
+    color: black;
 }
