@@ -6,10 +6,10 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/laboratorio.jpg" class="d-block w-100 img-fluid fotos" >
+      <img src="img/laboratorio.jpg" class="d-block w-100 img-fluid fotos">
     </div>
     <div class="carousel-item">
-      <img src="img/loja.jpg" class="d-block w-100 img-fluid fotos" >
+      <img src="img/loja.jpg" class="d-block w-100 img-fluid fotos">
     </div>
     <div class="carousel-item">
       <img src="img/remedio.jpg" class="d-block w-100 img-fluid fotos">

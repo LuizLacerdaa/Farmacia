@@ -7,7 +7,7 @@ include "banner.php";
 
 <div class="container mt-5">
 
-    <h2 class="row-cols-md-3 g-4 text-center">Medicamentos em Alta</h2>
+    <h2 class="text-center">Medicamentos em Alta</h2>
 
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <?php
@@ -15,10 +15,6 @@ include "banner.php";
 
         $sql = "select * from farmacia where categoria = 'medicamentos'";
         $resultado = mysqli_query($conexao, $sql);
-
-        // echo "<pre>";
-        // print_r($resultado);
-        // exit();
 
         while ($linha = mysqli_fetch_assoc($resultado)) {
         ?>
