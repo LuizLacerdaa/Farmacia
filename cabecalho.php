@@ -8,11 +8,19 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
-        <img src="img/logo.png" class="logo" height="150">
+    <header class="text-center">
+        <img src="img/logo.png" class="logo" height="80">
         <h1>Farmacia Vida Saudavel</h1>
-        <nav>
-            <a href="index.php">Home</a>
-            <a href="listaprodutos.php">Produtos</a>
+        <nav class="">
+        <ul class="nav justify-content-center">
+        <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="listaprodutos.php">Produtos</a>
+  </li>
+
+
+</ul>
         </nav>
     </header>
