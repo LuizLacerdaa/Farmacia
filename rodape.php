@@ -1,4 +1,4 @@
-<footer class="rodape text-center">
+<footer class="rodape text-center mt-auto">
   <hr class="mb-1">
   <img src="img/logo.png" height="50" class="mb-1">
   <small><?php echo date("Y"); ?></small>

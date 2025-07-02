@@ -1,25 +1,22 @@
 .fotos {
     height: 600px;
-    
+    object-fit: cover;
 }
 
-/* Espaçamento geral */
 .container {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-/* Título da seção */
-h2 {
+.card-titulo {
     font-weight: bold;
     color: #343a40;
     margin-bottom: 40px;
 }
 
-/* Card de produto */
-.col-3 {
+.card-produto {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
     border: 1px solid #e0e0e0;
     padding: 20px;
@@ -29,7 +26,7 @@ h2 {
     height: 100%;
 }
 
-.col-3:hover {
+.card-produto:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transform: translateY(-5px);
 }
@@ -41,8 +38,7 @@ h2 {
     border-radius: 8px;
 }
 
-/* Nome do produto */
-.col-3 h3 {
+.nome-produto {
     font-size: 1.1rem;
     margin-bottom: 10px;
 }
@@ -51,3 +47,4 @@ h2 {
     text-decoration: none;
     color: black;
 }
+

@@ -7,9 +7,9 @@ include "banner.php";
 
 <div class="container mt-5">
 
-    <h2 class="text-center">Medicamentos em Alta</h2>
+    <h2 class="text-center card-titulo">Medicamentos em Alta</h2>
 
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="row row-cols-md-3 g-2">
         <?php
         include "conexao.php";
 
@@ -18,10 +18,11 @@ include "banner.php";
 
         while ($linha = mysqli_fetch_assoc($resultado)) {
         ?>
-            <div class="col-3">
+            <div class="col-3 card-produto">
                 <img src="<?= $linha['foto_produto'] ?>" class="img-fluid capa-produto">
-                <h3><?= $linha['nome']; ?></h3>
+                <h3 class="nome-produto"><?= $linha['nome']; ?></h3>
                 <span> R$<?= $linha['preco'] ?></span>
+                <a href="umproduto.php?id=<?= $linha['id']; ?>" class="btn btn-primary">Veja detalhes</a>
             </div>
         <?php
         }
